@@ -1,7 +1,11 @@
-#
+#############################
+#3##
+### start
+###
+#################################
 echo "Start Network - Create Channel in Couchdb"
 cd test-network/
-./test-network/./network.sh up createChannel -c mychannel -s couchdb -i 2.2
+./network.sh up createChannel -c mychannel -s couchdb -i 2.2
 cd .. 
 echo "Start Explorer"
 cd explorer
